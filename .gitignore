@@ -3,3 +3,8 @@ __pycache__/
 *.pyc
 .DS_Store
 run*.sh
+
+LJSpeech*
+training
+models
+tacotron*

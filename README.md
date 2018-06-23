@@ -1,7 +1,28 @@
+# Disclaimer
+
+The purpose of this forked repository is:
+- to understand the model structure of Tacotron
+- to understand code logic
+- to implement for the future implementation of any other TTS systems
+
+# Notes
+- 2018-06-23
+  - Downloaded LJSpeech-1.1, preprocessed.
+  '''
+  $ python preprocess.py --dataset ljspeech
+   84%|███████████████████████████████████████████        | 11063/13100 [10:10<02:02, 16.66it/s]setsockopt TCP_NODELAY: Invalid argument  
+  100%|███████████████████████████████████████████████████| 13100/13100 [12:13<00:00, 17.86it/s]  
+  
+  Wrote 13100 utterances, 6895983 frames (23.94 hours)  
+  Max input length:  187  
+  Max output length: 808  
+  '''
+
+---
+
 # Tacotron
 
 An implementation of Tacotron speech synthesis in TensorFlow.
-
 
 ### Audio Samples
 
